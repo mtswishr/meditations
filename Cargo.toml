@@ -6,9 +6,9 @@ license = "MIT"
 keywords = ["cli", "stoic", "stdout"]
 categories = ["command-line-utilities"]
 authors = ["Michael Swisher"]
+description = "Print a random meditation to standard output"
+homepage = "https://github.com/mtswishr/meditations"
 
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rand = "0.8.5"
