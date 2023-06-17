@@ -13,5 +13,4 @@ fn main() {
         Some(text) => println!("{}", text),
         None => println!("Get stronger today")
     }
-    println!("********************************************************");
 }
