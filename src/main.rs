@@ -5,6 +5,7 @@ fn main() {
     let meditations = include_str!("../data/marcus.txt");
 
     println!("Rusting")
+    println!("Signing")
     let mut rng = rand::thread_rng();
     let _base: u32 = rng.gen::<u32>();
     let split_text: Vec<&str> = meditations.split("\n\n").collect();
